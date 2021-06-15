@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#main-banner {
+  background: url("../images/main-banner.jpg") no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 200px;
+}
+
+.active {
+  color: #1fae4b !important;
+}
+
+header {
+  background-color: red;
+}
+
+#slider {
+  padding: 20px;
+}
+#slider .carousel-inner {
+  max-height: 250px !important;
+}
+
+.underline {
+  position: relative;
+  border: none;
+  height: 5px;
+  background: #1fae4b;
+  margin-bottom: 50px;
+}
+
+#update-news .news-card h1 {
+  background-color: #1fae4b;
+  padding: 5px 15px;
+  color: #fff;
+}
+#update-news .news-card .update-list li {
+  color: black;
+  padding: 2px 5px;
+}
+#update-news .news-card .update-list li:nth-child(even) {
+  background-color: #77777720;
+}
+
+.main-feature-banner {
+  background: url("../images/main-feature-banner.jpg") no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 300px;
+}
+
+#main-feature {
+  background-color: #ebeef5;
+}
+
+#feature-ads {
+  background-color: #1fae4b;
+}
+#feature-ads .btn-product {
+  color: #1fae4b;
+  width: 25%;
+}
+
+#faq {
+  background-color: #ebeef5;
+}
+#faq h1 {
+  background-color: #1fae4b;
+  display: inline;
+  padding: 10px;
+}
+#faq .accordion-heading-text {
+  color: #1fae4b;
+}
+
+#buy-now,
+#confirm-now {
+  background-color: #1fae4b;
+  min-height: 150px;
+}
+#buy-now .btn-buy-now,
+#confirm-now .btn-buy-now {
+  /* CODE HERE 1303180042 */
+}
+
+#about-us .about-heading-text {
+  background-color: #1fae4b;
+}
+
+#contact-us {
+  background-color: #ebeef5;
+}
+
+/*# sourceMappingURL=main.css.map */
